@@ -1,3 +1,4 @@
+'''
 shopping_list = []
 
 shopping_list.append("product1")
@@ -52,4 +53,22 @@ print(users)
 
 name = input("enter your name:\n>>>")
 users.append(name)
+'''
+
+nums = [3, 7, 2, 8, 10, 13, 5]
+odd_nums = []
+
+for element in nums:
+    if element % 2 == 0:
+        added = odd_nums.append(element)
+
+print(odd_nums)
+
+nums = [3, 7, 2, 8, 10, 13, 5]
+even_nums = []
+
+for elemnt in nums:
+    if elemnt % 2 == 1:
+        added = even_nums.append(elemnt)
+print(even_nums)        
 
