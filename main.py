@@ -54,7 +54,7 @@ print(users)
 name = input("enter your name:\n>>>")
 users.append(name)
 '''
-
+'''
 nums = [3, 7, 2, 8, 10, 13, 5]
 odd_nums = []
 
@@ -71,4 +71,27 @@ for elemnt in nums:
     if elemnt % 2 == 1:
         added = even_nums.append(elemnt)
 print(even_nums)        
+'''
 
+'''
+# liked films
+liked_films = ['film1', 'film2', 'film3', 'film4', 'film5']
+
+print(liked_films[0])
+print(liked_films[-1])
+print(len(liked_films))
+'''
+
+'''
+numbers = [10, 20, 30]
+numbers.append(40)
+numbers.insert(0, 5)
+print(numbers)
+'''
+
+'''
+owoca = ['owoc0', 'owoc1', 'owoc2', 'owoc3', 'owoc4']
+owoca.pop()
+owoca.remove('owoc1')
+print(owoca)
+'''
