@@ -119,3 +119,7 @@ liczby = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(liczby[0:3])
 print(liczby[-1])
 '''
+
+names = ['Anna', 'Jan', 'Piotr', 'Maria']
+for element in names:
+    print(element, 'ma:', len(element), ' liter')
