@@ -95,3 +95,9 @@ owoca.pop()
 owoca.remove('owoc1')
 print(owoca)
 '''
+
+miasta = ['Waszawa', 'Kraków', 'Gdynia', 'Gdansk', 'Wejherowo']
+userMiasto = input('enter your city>>>')
+for miasto in miasta:
+    if miasto == userMiasto:
+        print(miasta.index(userMiasto))
