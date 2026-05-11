@@ -96,8 +96,26 @@ owoca.remove('owoc1')
 print(owoca)
 '''
 
+'''
 miasta = ['Waszawa', 'Kraków', 'Gdynia', 'Gdansk', 'Wejherowo']
 userMiasto = input('enter your city>>>')
 for miasto in miasta:
     if miasto == userMiasto:
         print(miasta.index(userMiasto))
+'''
+
+'''
+colors = ['red', 'green', 'blue']
+colors.pop(1)
+colors.insert(1, 'yellow')
+colors.pop(2)
+colors.insert(2, 'purple')
+colors.append('grey')
+print(colors)
+'''
+
+'''
+liczby = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(liczby[0:3])
+print(liczby[-1])
+'''
