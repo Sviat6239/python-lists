@@ -120,6 +120,14 @@ print(liczby[0:3])
 print(liczby[-1])
 '''
 
+'''
 names = ['Anna', 'Jan', 'Piotr', 'Maria']
 for element in names:
     print(element, 'ma:', len(element), ' liter')
+'''
+
+'''
+animals = ['cat', 'dog', 'horse', 'mous']
+for element in animals:
+    print(element, 'na pozycji', element.index(element))
+'''    
